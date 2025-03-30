@@ -14,7 +14,9 @@ Then run the cluster algorithm through "FAST-SPC.py" -> this records the energy 
 
 Run "gen-hist.py" -> this generates the histogram of the photons ("xxx_hists.npy").
 
-Run "deconvolution.py" to show the final result once an appropriate deconvolution strength is set up (usually 2 x fill fraction) -> The output should be an svg image. NOTE: set "mpl.rcParams['text.usetex']" to False if you do not have latex.
+Run "deconvolution.py" to show the final result once an appropriate deconvolution strength is set up (usually 2 x fill fraction) -> The output should be an svg image. 
+
+NOTE: set "mpl.rcParams['text.usetex']" to False if you do not have latex.
 
 
 
